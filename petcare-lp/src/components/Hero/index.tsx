@@ -12,7 +12,7 @@ export default function Hero() {
         </p>
       </div>
 
-      <h1 className="mt-6 text-5xl max-w-130 text-center text-[#153229]">
+      <h1 className="mt-6 text-5xl max-w-130 font-black text-center text-[#153229]">
         Toda rotina do seu pet,{" "}
         <span className="text-[#FF6B4A]">numa coleira só.</span>
       </h1>
