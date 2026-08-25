@@ -4,11 +4,11 @@ import { GrSchedule } from "react-icons/gr";
 
 export default function Navbar() {
     return (
-        <header className="px-5 md:px-20 py-6 flex items-center justify-between border-b border-b-[#ccc] ">
-            <div className="flex gap-2">
+        <header className="px-5 md:px-20 py-4 flex items-center justify-between border-b border-b-[#ccc] ">
+            <div className="flex gap-2 ">
                 <MdOutlinePets size={24} color="#3F9271" />
-                <p className="font-black text-[#153229]">pet</p>
-                <p className="font-black text-[#FF684A]">care</p>
+                <p className="font-black text-[#153229] text-lg">pet</p>
+                <p className="font-black text-[#FF684A] text-lg">care</p>
             </div>
 
             <nav>
