@@ -8,11 +8,11 @@ export default function Funcionality () {
                     Funcionalidades
                 </p>
             
-                <h2 className="py-9 max-w-[500px] flex text-center text-3xl font-bold text-[#153229] ">
+                <h2 className="py-9 max-w-500px flex text-center text-3xl font-bold text-[#153229] ">
                     Tudo que o seu pet precisa, num só lugar
                 </h2>
 
-                <p className="flex text-center text-[#182420] max-w-[600px]">
+                <p className="flex text-center text-[#182420] max-w-600px">
                     Da vacina ao passeio, o PetCare acompanha cada etapa do cuidado - pra você nunca perder nada de vista.
                 </p>
 
