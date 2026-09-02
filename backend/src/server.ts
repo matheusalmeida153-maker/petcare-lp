@@ -1,6 +1,7 @@
 import express,{type Request, type Response} from "express"
-import { error } from "node:console"
+import { error, log } from "node:console"
 import { randomUUID } from "node:crypto"
+import { pool } from "./database/connection.js"
 
 const app = express()
 const port = 3000
@@ -11,6 +12,26 @@ app.get("/health", (_request: Request, response: Response) => {
     return response.json({
         status: "ok"
     })
+})
+
+app.get("/cliente", async (_request: Request, response: Response) => {
+    try {
+        const res = await pool.query("SELECT * FROM clientes")
+
+        response.json(res.rows)
+    } catch (error) {
+        console.error(error);
+    }
+})
+
+app.get("/animais", async (_request: Request, response: Response) => {
+    try {
+        const res = await pool.query("SELECT * FROM animais")
+
+        response.json(res.rows)
+    } catch (error) {
+        console.error(error);
+    }
 })
 
 interface CreateUserBody {
