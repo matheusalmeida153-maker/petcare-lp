@@ -9,7 +9,5 @@ pool.on("error", (error) => {
     console.error(
         "Conexão iddle encontrada", error
     );
-
     process.exit(1)
-
 })
