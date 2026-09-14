@@ -55,7 +55,7 @@ export default function Funcionality () {
                         />
                     <Cards 
                         title="Loja de produtos" 
-                        description="ração, medicamentos e acessórios recomendados, com entrega direto na sua casa." 
+                        description="Ração, medicamentos e acessórios recomendados, com entrega direto na sua casa." 
                         icon={<CiShoppingCart size={32} color="#8A804C"/>} 
                         background="bg-[#FFEE8C]"
                         />
