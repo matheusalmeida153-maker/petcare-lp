@@ -42,7 +42,7 @@ clienteRouter.patch('/inativar/:id', async (request: Request<{ id: string }>, re
     }
 })
 
-clienteRouter.post("/", async (request: Request<{}, {}, CriarCliente>, response: Response) => {
+clienteRouter.post("/", async (request: Request<CriarCliente>, response: Response) => {
     try {
         const dados = request.body
 
