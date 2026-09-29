@@ -1,8 +1,8 @@
-import Navbar from "./components/Navbar"
-import Hero from "./components/Hero"
-import Funcionality from "./components/Funcionality"
-import Cards from "./components/Cards"
-import Info from "./components/Info"
+import Navbar from "./layout/Navbar"
+import Hero from "./layout/Hero"
+import Funcionality from "./layout/Funcionality"
+import Info from "./layout/Info"
+import Contact from "./layout/Contact"
 
 function App() {
 
@@ -14,6 +14,7 @@ function App() {
       <Hero />
       <Funcionality />
       <Info />
+      <Contact />
     </>
   )
 }
